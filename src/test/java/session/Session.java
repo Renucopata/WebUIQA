@@ -11,6 +11,7 @@ public class Session {
     private Session(){
         browser = FactoryBrowser.make("chrome").create();
         browser.manage().window().maximize();
+        browser.get("http://todo.ly/");
         browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
     }
     public static Session getInstance(){
