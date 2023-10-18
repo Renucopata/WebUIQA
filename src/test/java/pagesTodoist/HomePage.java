@@ -20,6 +20,12 @@ public class HomePage {
     public Button editProject =  new Button(By.xpath("//div[text()='Edit project']"));
 
 
+   // public Button profileButton = new Button(By.xpath("//img/parent::div/parent::button"));
+
+    //public Button projectAddsButton = new Button(By.xpath("//button[@aria-label='Add project']"));
+
+    //public Button body = new Button(By.xpath("//body"));
+
     public Label checkNewProject(String xpath){
         return new Label(By.xpath("//span[text()='" + xpath + "'][last()]"));
     }

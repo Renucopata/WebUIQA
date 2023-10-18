@@ -18,4 +18,8 @@ public class RegisterSection {
     public Button continueButton = new Button(By.xpath("//button[@type='submit']"));
 
     public Button signUpButton = new Button(By.xpath("//button[@data-gtm-id='start-email-signup']"));
+
+    //public TextBox emailTextBox = new TextBox(By.xpath("//input[@type='email']"));
+    //public TextBox passwordTextBox = new TextBox(By.xpath("//input[@type='password']"));
+    //public Button signUpButton = new Button(By.xpath("//span[text()='Sign up with Email']/parent::button"));
 }
